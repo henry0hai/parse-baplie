@@ -62,34 +62,44 @@ let associationAssignedCode = '';
 
 let shouldAddBreakLine = false;
 
-lineReader
-  .on('line', line => {
-    const checkLines = line.split("'");
-    if (checkLines.length > 2 && checkLines[1].trim()) {
-      shouldAddBreakLine = true;
-    }
+lineReader.on('line', line => {
+  const checkLines = line.split("'");
+  if (checkLines.length > 2 && checkLines[1].trim()) {
+    shouldAddBreakLine = true;
+  }
 
-    if (shouldAddBreakLine) {
-      checkLines.map(newLine => {
-        processDataLine(newLine);
-      });
-    } else {
-      processDataLine(line);
-    }
-
-    if (!parseEdiStatus.status) {
-      rl.close();
-    }
-  })
-  .on('close', () => {
-    data.totalContainers = data.containers.length;
-    console.log('parse completed with total containers: ', JSON.stringify(data.totalContainers));
-    console.log('parseEdiStatus: ', JSON.stringify(parseEdiStatus));
-    fs.writeFile('ediParsed.json', JSON.stringify(data), err => {
-      // In case of a error throw err.
-      if (err) throw err;
+  if (shouldAddBreakLine) {
+    checkLines.map(newLine => {
+      processDataLine(newLine);
     });
+  } else {
+    processDataLine(line);
+  }
+
+  if (!parseEdiStatus.status) {
+    lineReader.close();
+  }
+});
+
+lineReader.on('close', () => {
+  if (data.containers) {
+    data.totalGoodContainers = data.containers.length;
+  } else {
+    data.totalGoodContainers = 0;
+  }
+  if (data.badContainers) {
+    data.totalBadContainers = data.badContainers.length;
+  } else {
+    data.totalBadContainers = 0;
+  }
+  data.totalContainers = data.totalGoodContainers + data.totalBadContainers;
+  console.log('parse completed with total containers: ', JSON.stringify(data.totalContainers));
+  console.log('parseEdiStatus: ', JSON.stringify(parseEdiStatus));
+  fs.writeFile('ediParsed.json', JSON.stringify(data), err => {
+    // In case of a error throw err.
+    if (err) throw err;
   });
+});
 
 const processDataLine = line => {
   processInterchangeHeader(line);
@@ -318,7 +328,11 @@ const processLocation = line => {
               container.bay = bay;
               container.row = row;
               container.tier = tier;
-              data.containers.push(container);
+              if (bay % 2 && tier % 2) {
+                data.containers.push(container);
+              } else {
+                data.badContainers.push(container);
+              }
               break;
             case '87': // (Ro/Ro-format, assigned by the Carrier)
               const deckBayRowTierRegex = new RegExp(/(\d{2})(\d{3})(\d{2})(\d{2})/);
@@ -330,7 +344,11 @@ const processLocation = line => {
               container.bay = bay;
               container.row = row;
               container.tier = tier;
-              data.containers.push(container);
+              if (bay % 2 && tier % 2) {
+                data.containers.push(container);
+              } else {
+                data.badContainers.push(container);
+              }
               break;
             case 'ZZZ': // (non-ISO-format, mutually defined)
               break;
@@ -495,6 +513,7 @@ const processDetailsOfTransport = line => {
         data: line,
       };
       data.containers = [];
+      data.badContainers = [];
     } catch (error) {
       parseEdiStatus.status = false;
       console.log('data', data);
