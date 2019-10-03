@@ -60,19 +60,26 @@ let equipmentAttached = [];
 
 let associationAssignedCode = '';
 
+let shouldAddBreakLine = false;
+
 lineReader
   .on('line', line => {
-    processInterchangeHeader(line);
+    const checkLines = line.split("'");
+    if (checkLines.length > 2 && checkLines[1].trim()) {
+      shouldAddBreakLine = true;
+    }
 
-    processMessageHeader(line);
+    if (shouldAddBreakLine) {
+      checkLines.map(newLine => {
+        processDataLine(newLine);
+      });
+    } else {
+      processDataLine(line);
+    }
 
-    processBeginningOfMessage(line);
-
-    processDateTimePeriod(line);
-
-    processDetailsOfTransport(line);
-
-    processContainers(line);
+    if (!parseEdiStatus.status) {
+      rl.close();
+    }
   })
   .on('close', () => {
     data.totalContainers = data.containers.length;
@@ -83,6 +90,20 @@ lineReader
       if (err) throw err;
     });
   });
+
+const processDataLine = line => {
+  processInterchangeHeader(line);
+
+  processMessageHeader(line);
+
+  processBeginningOfMessage(line);
+
+  processDateTimePeriod(line);
+
+  processDetailsOfTransport(line);
+
+  processContainers(line);
+};
 
 const processInterchangeHeader = line => {
   if (line.includes(INTERCHANGE_HEADER)) {
@@ -252,6 +273,7 @@ const processLocation = line => {
         // "6" = UN/ECE - United Nations - Economic Commission for Europe. (UN-Locodes).
         codeListResponsibleAgency = line.match(regex)[7];
       }
+
       if (associationAssignedCode === SMDG_VERSION_15) {
         regex = new RegExp(/(LOC)(\W)(\d*)(\W)(\w*):?:?(\w*)?/);
         codeListResponsibleAgency = line.match(regex)[6];
@@ -1120,7 +1142,7 @@ const processEquipmentDetails = line => {
 const processEquipmentAttached = line => {
   try {
     if (line.includes(EQUIPMENT_ATTACHED)) {
-      const regex = new RegExp(/(EQA)(\W*)(\w*)(\W*)([\w\s]*)/);
+      let regex = new RegExp(/(EQA)(\W*)(\w*)(\W*)([\w\s]*)/);
       // * Equipment Qualifier: Allowed qualifiers:
       // "RG" = Reefer Generator
       // "CN" = Container
