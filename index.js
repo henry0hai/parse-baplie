@@ -5,8 +5,8 @@ const { containerIsoCode, equipmentStatus, codeListDangerousGoods } = require('.
 
 const lineReader = readLine.createInterface({
   // input: fs.createReadStream('DEMO_BAPLIE_22.edi'),
-  // input: fs.createReadStream('demo_v22.edi'),
-  input: fs.createReadStream('demo_v15.edi'),
+  input: fs.createReadStream('demo_v22.edi'),
+  // input: fs.createReadStream('demo_v15.edi'),
 });
 
 const INTERCHANGE_HEADER = 'UNB';
@@ -405,6 +405,8 @@ const processDetailsOfTransport = line => {
       group1 = true;
 
       let regex;
+      let transportStateQualifier = '';
+      let conveyanceReferenceNumber = '';
       let carrierIdentificationCodeOrName = '';
       let codeListQualifier1 = '';
       let codeListResponsibleAgency1 = '';
@@ -413,15 +415,16 @@ const processDetailsOfTransport = line => {
       let codeListResponsibleAgency2 = '';
       let vesselIdOrName = '';
 
-      // Code "20" (Main Carriage)
-      const transportStateQualifier = line.match(regex)[3];
-
-      // Discharge voyage number as assigned by the Operating Carrier or his agent.
-      // The trade route could be included in this voyage number, if required.
-      const conveyanceReferenceNumber = line.match(regex)[5];
-
       if (associationAssignedCode === SMDG_VERSION_22) {
         regex = new RegExp(/(TDT)(\W)(\d*)(\W)(\w*)(\W*)([\w\s]*):(\d*):(\d*)(\W*)(\w*):(\d*):(\w*):((\w|\W[^'])*)/);
+
+        // Code "20" (Main Carriage)
+        transportStateQualifier = line.match(regex)[3];
+
+        // Discharge voyage number as assigned by the Operating Carrier or his agent.
+        // The trade route could be included in this voyage number, if required.
+        conveyanceReferenceNumber = line.match(regex)[5];
+
         carrierIdentificationCodeOrName = line.match(regex)[7];
 
         // Code List Qualifier: Code "172" (Carrier Code)
@@ -454,6 +457,13 @@ const processDetailsOfTransport = line => {
 
       if (associationAssignedCode === SMDG_VERSION_15) {
         regex = new RegExp(/(TDT)(\W)(\d*)(\W)(\w*)(\W*)(\w*):(\d*):?:?([\w\s-_]*)?:?(\w*)(\W*)(\w*):(\d*):(\d*)/);
+
+        // Code "20" (Main Carriage)
+        transportStateQualifier = line.match(regex)[3];
+
+        // Discharge voyage number as assigned by the Operating Carrier or his agent.
+        // The trade route could be included in this voyage number, if required.
+        conveyanceReferenceNumber = line.match(regex)[5];
 
         carrierIdentificationCodeOrName = line.match(regex)[12];
 
