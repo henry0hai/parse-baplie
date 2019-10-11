@@ -1107,7 +1107,7 @@ const processEquipmentDetails = line => {
           if (!containerDetail) {
             console.log('Container ISO type unknown: ', line);
             containerDetail = {
-              containerDetail: 'Unknown',
+              containerType: 'Unknown',
               containerTypeCode: 'unknown',
               containerColor: '#9E9E9E',
               containerGroup: equipmentSizeAndTypeIdentification,

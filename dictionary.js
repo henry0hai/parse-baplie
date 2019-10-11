@@ -1,6 +1,6 @@
 const containerIsoCode = {
   '2000': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -8,7 +8,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2001': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -16,7 +16,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2002': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -24,7 +24,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2003': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -32,7 +32,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2004': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -40,7 +40,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2005': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -48,7 +48,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2006': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -56,7 +56,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2007': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -64,7 +64,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2008': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -72,7 +72,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2009': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -80,7 +80,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2010': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -88,7 +88,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2011': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -96,7 +96,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2013': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -104,7 +104,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2015': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -112,7 +112,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2017': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -120,7 +120,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2020': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -128,7 +128,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2030': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -136,7 +136,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2031': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -144,7 +144,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2032': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -152,7 +152,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2036': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -160,7 +160,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2037': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -168,7 +168,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2050': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -176,7 +176,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2051': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -184,7 +184,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2054': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -192,7 +192,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2056': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -200,7 +200,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2060': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -208,7 +208,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2061': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -216,7 +216,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2062': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -224,7 +224,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2063': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -232,7 +232,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2064': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -240,7 +240,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2070': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -248,7 +248,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2072': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -256,7 +256,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2073': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -264,7 +264,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2075': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -272,7 +272,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2076': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -280,7 +280,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2080': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -288,7 +288,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2081': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -296,7 +296,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2085': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -304,7 +304,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2099': {
-    containerDetail: 'Rest Unknown',
+    containerType: 'Rest Unknown',
     containerTypeCode: 'rest_unknown',
     containerColor: '#8395a7',
     containerGroup: 'Rest Unknown',
@@ -312,7 +312,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2100': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -320,7 +320,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2101': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -328,7 +328,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2102': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -336,7 +336,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2103': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -344,7 +344,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2104': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -352,7 +352,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2105': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -360,7 +360,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2106': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -368,7 +368,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2107': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -376,7 +376,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2108': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -384,7 +384,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2109': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -392,7 +392,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2110': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -400,7 +400,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2111': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -408,7 +408,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2113': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -416,7 +416,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2115': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -424,7 +424,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2117': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -432,7 +432,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2120': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -440,7 +440,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2130': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -448,7 +448,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2131': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -456,7 +456,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2132': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -464,7 +464,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2136': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -472,7 +472,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2137': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -480,7 +480,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2150': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -488,7 +488,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2151': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -496,7 +496,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2154': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -504,7 +504,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2156': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -512,7 +512,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2160': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -520,7 +520,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2161': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -528,7 +528,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2162': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -536,7 +536,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2163': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -544,7 +544,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2164': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -552,7 +552,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2170': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -560,7 +560,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2173': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -568,7 +568,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2175': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -576,7 +576,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2176': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -584,7 +584,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2180': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -592,7 +592,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2181': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -600,7 +600,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2185': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -608,7 +608,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2200': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -616,7 +616,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2201': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -624,7 +624,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2202': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -632,7 +632,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2203': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -640,7 +640,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2204': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -648,7 +648,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2205': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -656,7 +656,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2206': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -664,7 +664,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2207': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -672,7 +672,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2208': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -680,7 +680,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2209': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -688,7 +688,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2210': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -696,7 +696,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2211': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -704,7 +704,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2212': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -712,7 +712,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2213': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -720,7 +720,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2214': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -728,7 +728,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2215': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -736,7 +736,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2216': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -744,7 +744,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2217': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -752,7 +752,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2218': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -760,7 +760,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2219': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -768,7 +768,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2220': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -776,7 +776,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2230': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -784,7 +784,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2231': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -792,7 +792,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2232': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -800,7 +800,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2236': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -808,7 +808,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2237': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -816,7 +816,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2250': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -824,7 +824,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2251': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -832,7 +832,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2254': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -840,7 +840,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2256': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -848,7 +848,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2260': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -856,7 +856,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2261': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -864,7 +864,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2262': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -872,7 +872,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2263': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -880,7 +880,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2264': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -888,7 +888,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2270': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid (Minimum pressure 45kPa)',
@@ -896,7 +896,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2272': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid (Minimum pressure 265kPa)',
@@ -904,7 +904,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2273': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -912,7 +912,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2275': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -920,7 +920,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2276': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -928,7 +928,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2277': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for Dangerous liquids (Minimum pressure 1050kPa)',
@@ -936,7 +936,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2278': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for Dangerous liquids (Minimum pressure 2200kPa)',
@@ -944,7 +944,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2280': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -952,7 +952,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2281': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -960,7 +960,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2285': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -968,7 +968,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2299': {
-    containerDetail: 'Rest Unknown',
+    containerType: 'Rest Unknown',
     containerTypeCode: 'rest_unknown',
     containerColor: '#8395a7',
     containerGroup: 'Rest Unknown',
@@ -976,7 +976,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2300': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -984,7 +984,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2301': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -992,7 +992,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2302': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1000,7 +1000,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2303': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1008,7 +1008,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2304': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1016,7 +1016,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2305': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1024,7 +1024,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2306': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1032,7 +1032,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2307': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1040,7 +1040,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2308': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1048,7 +1048,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2309': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1056,7 +1056,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2310': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -1064,7 +1064,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2311': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -1072,7 +1072,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2313': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -1080,7 +1080,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2315': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -1088,7 +1088,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2317': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -1096,7 +1096,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2320': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -1104,7 +1104,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2330': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -1112,7 +1112,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2331': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -1120,7 +1120,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2332': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -1128,7 +1128,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2336': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -1136,7 +1136,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2337': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -1144,7 +1144,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2350': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -1152,7 +1152,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2351': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -1160,7 +1160,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2354': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -1168,7 +1168,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2356': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -1176,7 +1176,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2360': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -1184,7 +1184,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2361': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -1192,7 +1192,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2362': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -1200,7 +1200,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2363': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -1208,7 +1208,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2364': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -1216,7 +1216,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2370': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -1224,7 +1224,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2373': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -1232,7 +1232,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2375': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -1240,7 +1240,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2376': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -1248,7 +1248,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2380': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1256,7 +1256,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2381': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1264,7 +1264,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2385': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1272,7 +1272,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '2400': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -1280,7 +1280,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2401': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1288,7 +1288,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2402': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1296,7 +1296,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2403': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1304,7 +1304,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2404': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1312,7 +1312,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2405': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1320,7 +1320,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2406': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1328,7 +1328,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2407': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1336,7 +1336,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2408': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1344,7 +1344,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2409': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1352,7 +1352,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2410': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -1360,7 +1360,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2411': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -1368,7 +1368,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2413': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -1376,7 +1376,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2415': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -1384,7 +1384,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2417': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -1392,7 +1392,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2420': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -1400,7 +1400,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2430': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -1408,7 +1408,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2431': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -1416,7 +1416,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2432': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -1424,7 +1424,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2436': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -1432,7 +1432,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2437': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -1440,7 +1440,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2450': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -1448,7 +1448,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2451': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -1456,7 +1456,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2454': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -1464,7 +1464,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2456': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -1472,7 +1472,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2460': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -1480,7 +1480,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2461': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -1488,7 +1488,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2462': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -1496,7 +1496,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2463': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -1504,7 +1504,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2464': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -1512,7 +1512,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2470': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -1520,7 +1520,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2473': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -1528,7 +1528,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2475': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -1536,7 +1536,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2476': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -1544,7 +1544,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2480': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1552,7 +1552,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2481': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1560,7 +1560,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2485': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1568,7 +1568,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2499': {
-    containerDetail: 'Power Pack',
+    containerType: 'Power Pack',
     containerTypeCode: 'power_pack',
     containerColor: '#c13e73',
     containerGroup: 'Power Pack',
@@ -1576,7 +1576,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2500': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -1584,7 +1584,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2501': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1592,7 +1592,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2502': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1600,7 +1600,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2503': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1608,7 +1608,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2504': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1616,7 +1616,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2505': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1624,7 +1624,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2506': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1632,7 +1632,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2507': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1640,7 +1640,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2508': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1648,7 +1648,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2509': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1656,7 +1656,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2510': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -1664,7 +1664,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2511': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -1672,7 +1672,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2513': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -1680,7 +1680,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2515': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -1688,7 +1688,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2517': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -1696,7 +1696,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2520': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -1704,7 +1704,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2530': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -1712,7 +1712,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2531': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -1720,7 +1720,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2532': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -1728,7 +1728,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2536': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -1736,7 +1736,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2537': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -1744,7 +1744,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2550': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -1752,7 +1752,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2551': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -1760,7 +1760,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2554': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -1768,7 +1768,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2556': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -1776,7 +1776,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2560': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -1784,7 +1784,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2561': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -1792,7 +1792,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2562': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -1800,7 +1800,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2563': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -1808,7 +1808,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2564': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -1816,7 +1816,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2570': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -1824,7 +1824,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2573': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -1832,7 +1832,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2575': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -1840,7 +1840,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2576': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -1848,7 +1848,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2580': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1856,7 +1856,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2581': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1864,7 +1864,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2585': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -1872,7 +1872,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2999': {
-    containerDetail: 'Rest Unknown',
+    containerType: 'Rest Unknown',
     containerTypeCode: 'rest_unknown',
     containerColor: '#8395a7',
     containerGroup: 'Rest Unknown',
@@ -1880,7 +1880,7 @@ const containerIsoCode = {
     containerHeight: 0,
   },
   '4000': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -1888,7 +1888,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4001': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1896,7 +1896,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4002': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1904,7 +1904,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4003': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1912,7 +1912,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4004': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -1920,7 +1920,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4005': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1928,7 +1928,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4006': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1936,7 +1936,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4007': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1944,7 +1944,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4008': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1952,7 +1952,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4009': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -1960,7 +1960,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4010': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -1968,7 +1968,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4011': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -1976,7 +1976,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4013': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -1984,7 +1984,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4015': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -1992,7 +1992,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4017': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -2000,7 +2000,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4020': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -2008,7 +2008,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4030': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -2016,7 +2016,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4031': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -2024,7 +2024,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4032': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -2032,7 +2032,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4036': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -2040,7 +2040,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4037': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -2048,7 +2048,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4050': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2056,7 +2056,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4051': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2064,7 +2064,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4054': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -2072,7 +2072,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4056': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -2080,7 +2080,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4060': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -2088,7 +2088,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4061': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -2096,7 +2096,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4062': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -2104,7 +2104,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4063': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -2112,7 +2112,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4064': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -2120,7 +2120,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4070': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -2128,7 +2128,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4073': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -2136,7 +2136,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4075': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -2144,7 +2144,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4076': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -2152,7 +2152,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4080': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2160,7 +2160,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4081': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2168,7 +2168,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4085': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2176,7 +2176,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4099': {
-    containerDetail: 'Rest Unknown',
+    containerType: 'Rest Unknown',
     containerTypeCode: 'rest_unknown',
     containerColor: '#8395a7',
     containerGroup: 'Rest Unknown',
@@ -2184,7 +2184,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4100': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -2192,7 +2192,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4101': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2200,7 +2200,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4102': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2208,7 +2208,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4103': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2216,7 +2216,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4104': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2224,7 +2224,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4105': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2232,7 +2232,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4106': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2240,7 +2240,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4107': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2248,7 +2248,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4108': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2256,7 +2256,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4109': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2264,7 +2264,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4110': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -2272,7 +2272,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4111': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -2280,7 +2280,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4113': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -2288,7 +2288,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4115': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -2296,7 +2296,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4117': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -2304,7 +2304,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4120': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -2312,7 +2312,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4130': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -2320,7 +2320,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4131': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -2328,7 +2328,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4132': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -2336,7 +2336,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4136': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -2344,7 +2344,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4137': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -2352,7 +2352,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4150': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2360,7 +2360,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4151': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2368,7 +2368,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4154': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -2376,7 +2376,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4156': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -2384,7 +2384,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4160': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -2392,7 +2392,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4161': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -2400,7 +2400,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4162': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -2408,7 +2408,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4163': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -2416,7 +2416,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4164': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -2424,7 +2424,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4170': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -2432,7 +2432,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4173': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -2440,7 +2440,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4175': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -2448,7 +2448,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4176': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -2456,7 +2456,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4180': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2464,7 +2464,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4181': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2472,7 +2472,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4185': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2480,7 +2480,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '4200': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -2488,7 +2488,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4201': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2496,7 +2496,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4202': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2504,7 +2504,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4203': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2512,7 +2512,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4204': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2520,7 +2520,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4205': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2528,7 +2528,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4206': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2536,7 +2536,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4207': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2544,7 +2544,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4208': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2552,7 +2552,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4209': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2560,7 +2560,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4210': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -2568,7 +2568,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4211': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -2576,7 +2576,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4213': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -2584,7 +2584,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4215': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -2592,7 +2592,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4217': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -2600,7 +2600,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4220': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -2608,7 +2608,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4230': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -2616,7 +2616,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4231': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -2624,7 +2624,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4232': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -2632,7 +2632,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4236': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -2640,7 +2640,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4237': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -2648,7 +2648,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4250': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2656,7 +2656,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4251': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2664,7 +2664,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4252': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2672,7 +2672,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4254': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -2680,7 +2680,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4256': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -2688,7 +2688,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4260': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -2696,7 +2696,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4261': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -2704,7 +2704,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4262': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -2712,7 +2712,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4263': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -2720,7 +2720,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4264': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -2728,7 +2728,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4270': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -2736,7 +2736,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4273': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -2744,7 +2744,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4275': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -2752,7 +2752,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4276': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -2760,7 +2760,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4280': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2768,7 +2768,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4281': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2776,7 +2776,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4285': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -2784,7 +2784,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4299': {
-    containerDetail: 'Rest Unknown',
+    containerType: 'Rest Unknown',
     containerTypeCode: 'rest_unknown',
     containerColor: '#8395a7',
     containerGroup: 'Rest Unknown',
@@ -2792,7 +2792,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4300': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -2800,7 +2800,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4301': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2808,7 +2808,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4302': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2816,7 +2816,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4303': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2824,7 +2824,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4304': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -2832,7 +2832,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4305': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2840,7 +2840,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4306': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2848,7 +2848,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4307': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2856,7 +2856,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4308': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2864,7 +2864,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4309': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -2872,7 +2872,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4310': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general container with ventilation holes',
@@ -2880,7 +2880,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4311': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'passive vents at upper part',
@@ -2888,7 +2888,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4313': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'highly ventilated container',
@@ -2896,7 +2896,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4315': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -2904,7 +2904,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4317': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'mechanical ventilation system',
@@ -2912,7 +2912,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4320': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'Insulated container',
@@ -2920,7 +2920,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4330': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -2928,7 +2928,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4331': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -2936,7 +2936,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4332': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -2944,7 +2944,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4336': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer , self powered',
@@ -2952,7 +2952,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4337': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated, self powered',
@@ -2960,7 +2960,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4350': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2968,7 +2968,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4351': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -2976,7 +2976,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4354': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -2984,7 +2984,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4356': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -2992,7 +2992,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4360': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -3000,7 +3000,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4361': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -3008,7 +3008,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4362': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -3016,7 +3016,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4363': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -3024,7 +3024,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4364': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -3032,7 +3032,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4370': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -3040,7 +3040,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4373': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -3048,7 +3048,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4375': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -3056,7 +3056,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4376': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -3064,7 +3064,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4380': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3072,7 +3072,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4381': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3080,7 +3080,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4385': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3088,7 +3088,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4400': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both end(s)',
@@ -3096,7 +3096,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4401': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both ends',
@@ -3104,7 +3104,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4402': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both ends',
@@ -3112,7 +3112,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4403': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both ends',
@@ -3120,7 +3120,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4404': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both ends',
@@ -3128,7 +3128,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4405': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3136,7 +3136,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4406': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3144,7 +3144,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4407': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3152,7 +3152,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4408': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3160,7 +3160,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4409': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3168,7 +3168,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4410': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general container with ventilation holes',
@@ -3176,7 +3176,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4411': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'passive vents at upper part',
@@ -3184,7 +3184,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4413': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'highly ventilated container',
@@ -3192,7 +3192,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4415': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'mechanical ventilation system',
@@ -3200,7 +3200,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4417': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'mechanical ventilation system',
@@ -3208,7 +3208,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4420': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'Insulated container',
@@ -3216,7 +3216,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4430': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -3224,7 +3224,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4431': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'integral reefer',
@@ -3232,7 +3232,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4432': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'integral reefer/heated',
@@ -3240,7 +3240,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4436': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'integral reefer , self powered',
@@ -3248,7 +3248,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4437': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'integral reefer/heated, self powered',
@@ -3256,7 +3256,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4450': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -3264,7 +3264,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4451': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -3272,7 +3272,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4454': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -3280,7 +3280,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4456': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -3288,7 +3288,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4460': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -3296,7 +3296,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4461': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -3304,7 +3304,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4462': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -3312,7 +3312,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4463': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -3320,7 +3320,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4464': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -3328,7 +3328,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4470': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -3336,7 +3336,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4473': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -3344,7 +3344,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4475': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -3352,7 +3352,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4476': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -3360,7 +3360,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4480': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3368,7 +3368,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4481': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3376,7 +3376,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4485': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3384,7 +3384,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4500': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both end(s)',
@@ -3392,7 +3392,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4501': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both ends',
@@ -3400,7 +3400,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4502': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both ends',
@@ -3408,7 +3408,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4503': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both ends',
@@ -3416,7 +3416,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4504': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both ends',
@@ -3424,7 +3424,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4505': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3432,7 +3432,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4506': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3440,7 +3440,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4507': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3448,7 +3448,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4508': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3456,7 +3456,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4509': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3464,7 +3464,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4510': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general container with ventilation holes',
@@ -3472,7 +3472,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4511': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'passive vents at upper part',
@@ -3480,7 +3480,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4513': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'highly ventilated container',
@@ -3488,7 +3488,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4515': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'mechanical ventilation system',
@@ -3496,7 +3496,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4517': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'mechanical ventilation system',
@@ -3504,7 +3504,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4519': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'mechanical ventilation system',
@@ -3512,7 +3512,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4520': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'Insulated container',
@@ -3520,7 +3520,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4530': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -3528,7 +3528,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4531': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'integral reefer',
@@ -3536,7 +3536,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4532': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'integral reefer/heated',
@@ -3544,7 +3544,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4536': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'integral reefer , self powered',
@@ -3552,7 +3552,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4537': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'integral reefer/heated, self powered',
@@ -3560,7 +3560,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4550': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -3568,7 +3568,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4551': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top container',
@@ -3576,7 +3576,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4554': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -3584,7 +3584,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4556': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open Top container ',
@@ -3592,7 +3592,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4560': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -3600,7 +3600,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4561': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat rack with fixed ends',
@@ -3608,7 +3608,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4562': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with fixed corner posts only',
@@ -3616,7 +3616,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4563': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -3624,7 +3624,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4564': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible posts',
@@ -3632,7 +3632,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4570': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -3640,7 +3640,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4573': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'minimum pressure 150 kPa',
@@ -3648,7 +3648,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4575': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -3656,7 +3656,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4576': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'for dangerous liquids',
@@ -3664,7 +3664,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4580': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3672,7 +3672,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4581': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3680,7 +3680,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4585': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'dry bulk container',
@@ -3688,7 +3688,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4619': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both end(s)',
@@ -3696,7 +3696,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4999': {
-    containerDetail: 'Rest Unknown',
+    containerType: 'Rest Unknown',
     containerTypeCode: 'rest_unknown',
     containerColor: '#8395a7',
     containerGroup: 'Rest Unknown',
@@ -3704,7 +3704,7 @@ const containerIsoCode = {
     containerHeight: 0,
   },
   '9200': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -3712,7 +3712,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '9201': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both ends',
@@ -3720,7 +3720,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '9210': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -3728,7 +3728,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '9300': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'openings at one or both end(s)',
@@ -3736,7 +3736,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '9400': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both end(s)',
@@ -3744,7 +3744,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9409': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -3752,7 +3752,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9410': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general container with ventilation holes',
@@ -3760,7 +3760,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9430': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -3768,7 +3768,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9431': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer',
@@ -3776,7 +3776,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9432': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -3784,7 +3784,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9500': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'openings at one or both end(s)',
@@ -3792,7 +3792,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9510': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general container with ventilation holes',
@@ -3800,7 +3800,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9530': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Integral Reefer - mechanically refrigerated',
@@ -3808,7 +3808,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9532': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'integral reefer/heated',
@@ -3816,7 +3816,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9560': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -3824,7 +3824,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9563': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat with collapsible solid ends',
@@ -3832,7 +3832,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '9999': {
-    containerDetail: 'No Information',
+    containerType: 'No Information',
     containerTypeCode: 'no_info',
     containerColor: '#222f3e',
     containerGroup: 'No Information',
@@ -3840,7 +3840,7 @@ const containerIsoCode = {
     containerHeight: 0,
   },
   LEG1: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3848,7 +3848,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   LEG2: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3856,7 +3856,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   LEG3: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3864,7 +3864,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   LEG4: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3872,7 +3872,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   LEG5: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3880,7 +3880,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   LEG6: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3888,7 +3888,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   LEG7: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3896,7 +3896,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   LEG8: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3904,7 +3904,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   LEG9: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -3912,7 +3912,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5V0: {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -3920,7 +3920,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5U1: {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -3928,7 +3928,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R1: {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'Mech refrigerated heated RS',
@@ -3936,7 +3936,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R2: {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -3944,7 +3944,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R3: {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -3952,7 +3952,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R4: {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -3960,7 +3960,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R5: {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -3968,7 +3968,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R6: {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -3976,7 +3976,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R7: {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -3984,7 +3984,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R8: {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -3992,7 +3992,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5R9: {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -4000,7 +4000,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5G2: {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4008,7 +4008,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5G1: {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4016,7 +4016,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L5G0: {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4024,7 +4024,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   L2R1: {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated heated RS',
@@ -4032,7 +4032,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   L2G1: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -4040,7 +4040,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   L0G1: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -4048,7 +4048,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   L0G0: {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -4056,7 +4056,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '95G1': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4064,7 +4064,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4FG1': {
-    containerDetail: 'Palletwide Container',
+    containerType: 'Palletwide Container',
     containerTypeCode: 'palletwide_container',
     containerColor: '#7c3c4c',
     containerGroup: 'Pallet Wide',
@@ -4072,7 +4072,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4EG1': {
-    containerDetail: '40ft PW High Cube',
+    containerType: '40ft PW High Cube',
     containerTypeCode: 'fourty_pw_high_cube',
     containerColor: '#ed421f',
     containerGroup: 'general purpose dry container ',
@@ -4080,7 +4080,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4EG0': {
-    containerDetail: '40ft PW High Cube',
+    containerType: '40ft PW High Cube',
     containerTypeCode: 'fourty_pw_high_cube',
     containerColor: '#ed421f',
     containerGroup: 'general purpose dry container ',
@@ -4088,7 +4088,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '4CG1': {
-    containerDetail: '40ft PW',
+    containerType: '40ft PW',
     containerTypeCode: 'fourty_pw',
     containerColor: '#4b21a7',
     containerGroup: 'Pallet Wide',
@@ -4096,7 +4096,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '4960': {
-    containerDetail: '40ft PW',
+    containerType: '40ft PW',
     containerTypeCode: 'fourty_pw',
     containerColor: '#4b21a7',
     containerGroup: 'Platform based containers with incomplete superstructure',
@@ -4104,7 +4104,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '49P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -4112,7 +4112,7 @@ const containerIsoCode = {
     containerHeight: 4,
   },
   '48G1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -4120,7 +4120,7 @@ const containerIsoCode = {
     containerHeight: 4.3,
   },
   '46V4': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4128,7 +4128,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46V3': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4136,7 +4136,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46V2': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4144,7 +4144,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46V1': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4152,7 +4152,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46V0': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4160,7 +4160,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4168,7 +4168,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4176,7 +4176,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4184,7 +4184,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4192,7 +4192,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4200,7 +4200,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4208,7 +4208,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4216,7 +4216,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4224,7 +4224,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4232,7 +4232,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4240,7 +4240,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -4248,7 +4248,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -4256,7 +4256,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -4264,7 +4264,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -4272,7 +4272,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -4280,7 +4280,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -4288,7 +4288,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -4296,7 +4296,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -4304,7 +4304,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -4312,7 +4312,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -4320,7 +4320,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -4328,7 +4328,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -4336,7 +4336,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -4344,7 +4344,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R9': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4352,7 +4352,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R8': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4360,7 +4360,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R7': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4368,7 +4368,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R6': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4376,7 +4376,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R5': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4384,7 +4384,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R4': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4392,7 +4392,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R3': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'mech refrigerated heated RT',
@@ -4400,7 +4400,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R2': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -4408,7 +4408,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R1': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated heated RS',
@@ -4416,7 +4416,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46R0': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RE',
@@ -4424,7 +4424,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -4432,7 +4432,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -4440,7 +4440,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -4448,7 +4448,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -4456,7 +4456,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -4464,7 +4464,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -4472,7 +4472,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -4480,7 +4480,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -4488,7 +4488,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -4496,7 +4496,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -4504,7 +4504,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -4512,7 +4512,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -4520,7 +4520,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -4528,7 +4528,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -4536,7 +4536,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -4544,7 +4544,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46G4': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4552,7 +4552,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46G3': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4560,7 +4560,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46G2': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4568,7 +4568,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46G1': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4576,7 +4576,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46G0': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -4584,7 +4584,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -4592,7 +4592,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -4600,7 +4600,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -4608,7 +4608,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -4616,7 +4616,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -4624,7 +4624,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -4632,7 +4632,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '46A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -4640,7 +4640,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45V4': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4648,7 +4648,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45V3': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4656,7 +4656,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45V2': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4664,7 +4664,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45V1': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4672,7 +4672,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45V0': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -4680,7 +4680,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4688,7 +4688,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4696,7 +4696,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4704,7 +4704,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4712,7 +4712,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4720,7 +4720,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4728,7 +4728,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4736,7 +4736,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4744,7 +4744,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4752,7 +4752,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -4760,7 +4760,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -4768,7 +4768,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -4776,7 +4776,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -4784,7 +4784,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -4792,7 +4792,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -4800,7 +4800,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -4808,7 +4808,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -4816,7 +4816,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -4824,7 +4824,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -4832,7 +4832,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -4840,7 +4840,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -4848,7 +4848,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -4856,7 +4856,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -4864,7 +4864,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45RT': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated heated RS',
@@ -4872,7 +4872,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45RB': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated heated RS',
@@ -4880,7 +4880,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R9': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4888,7 +4888,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R8': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4896,7 +4896,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R7': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4904,7 +4904,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R6': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4912,7 +4912,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R5': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4920,7 +4920,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R4': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -4928,7 +4928,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R3': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'mech refrigerated heated RT',
@@ -4936,7 +4936,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R2': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -4944,7 +4944,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R1': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated heated RS',
@@ -4952,7 +4952,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45R0': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RE',
@@ -4960,7 +4960,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45PC': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -4968,7 +4968,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -4976,7 +4976,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -4984,7 +4984,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -4992,7 +4992,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -5000,7 +5000,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -5008,7 +5008,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -5016,7 +5016,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -5024,7 +5024,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -5032,7 +5032,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -5040,7 +5040,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -5048,7 +5048,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -5056,7 +5056,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -5064,7 +5064,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -5072,7 +5072,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -5080,7 +5080,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -5088,7 +5088,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45GP': {
-    containerDetail: '40ft HC Container',
+    containerType: '40ft HC Container',
     containerTypeCode: 'fourty_hc_container',
     containerColor: '#165660',
     containerGroup: 'general purpose dry container ',
@@ -5096,7 +5096,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45G9': {
-    containerDetail: '40ft HC Container',
+    containerType: '40ft HC Container',
     containerTypeCode: 'fourty_hc_container',
     containerColor: '#165660',
     containerGroup: 'general purpose dry container ',
@@ -5104,7 +5104,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45G5': {
-    containerDetail: '40ft HC Container',
+    containerType: '40ft HC Container',
     containerTypeCode: 'fourty_hc_container',
     containerColor: '#165660',
     containerGroup: 'general purpose dry container ',
@@ -5112,7 +5112,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45G4': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5120,7 +5120,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45G3': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5128,7 +5128,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45G2': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5136,7 +5136,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45G1': {
-    containerDetail: '40ft HC Container',
+    containerType: '40ft HC Container',
     containerTypeCode: 'fourty_hc_container',
     containerColor: '#165660',
     containerGroup: 'general purpose dry container ',
@@ -5144,7 +5144,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45G0': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5152,7 +5152,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -5160,7 +5160,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -5168,7 +5168,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -5176,7 +5176,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -5184,7 +5184,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -5192,7 +5192,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -5200,7 +5200,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '45A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -5208,7 +5208,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44V4': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -5216,7 +5216,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44V3': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -5224,7 +5224,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44V2': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -5232,7 +5232,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44V1': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -5240,7 +5240,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44V0': {
-    containerDetail: 'Ventilated',
+    containerType: 'Ventilated',
     containerTypeCode: 'ventilated',
     containerColor: '#877654',
     containerGroup: 'ventilated container',
@@ -5248,7 +5248,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5256,7 +5256,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5264,7 +5264,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5272,7 +5272,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5280,7 +5280,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5288,7 +5288,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5296,7 +5296,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5304,7 +5304,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5312,7 +5312,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5320,7 +5320,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5328,7 +5328,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -5336,7 +5336,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -5344,7 +5344,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -5352,7 +5352,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -5360,7 +5360,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -5368,7 +5368,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -5376,7 +5376,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -5384,7 +5384,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -5392,7 +5392,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -5400,7 +5400,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -5408,7 +5408,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -5416,7 +5416,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -5424,7 +5424,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -5432,7 +5432,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R9': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -5440,7 +5440,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R8': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -5448,7 +5448,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R7': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -5456,7 +5456,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R6': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -5464,7 +5464,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R5': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -5472,7 +5472,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R4': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'reefer container',
@@ -5480,7 +5480,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R3': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'mech refrigerated heated RT',
@@ -5488,7 +5488,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R2': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RS',
@@ -5496,7 +5496,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R1': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated heated RS',
@@ -5504,7 +5504,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44R0': {
-    containerDetail: 'High Cube Reefer',
+    containerType: 'High Cube Reefer',
     containerTypeCode: 'high_cube_reefer',
     containerColor: '#70d64f',
     containerGroup: 'Mech refrigerated RE',
@@ -5512,7 +5512,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -5520,7 +5520,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -5528,7 +5528,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -5536,7 +5536,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -5544,7 +5544,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -5552,7 +5552,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -5560,7 +5560,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -5568,7 +5568,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -5576,7 +5576,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -5584,7 +5584,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -5592,7 +5592,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -5600,7 +5600,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -5608,7 +5608,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -5616,7 +5616,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -5624,7 +5624,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -5632,7 +5632,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44G4': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5640,7 +5640,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44G3': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5648,7 +5648,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44G2': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5656,7 +5656,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44G1': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5664,7 +5664,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44G0': {
-    containerDetail: 'High Cube',
+    containerType: 'High Cube',
     containerTypeCode: 'high_cube',
     containerColor: '#687311',
     containerGroup: 'general purpose dry container ',
@@ -5672,7 +5672,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -5680,7 +5680,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -5688,7 +5688,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -5696,7 +5696,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -5704,7 +5704,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -5712,7 +5712,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -5720,7 +5720,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '44A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -5728,7 +5728,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '43R1': {
-    containerDetail: 'Refrigerated and heated',
+    containerType: 'Refrigerated and heated',
     containerTypeCode: 'refrigerated_and_heated',
     containerColor: '#8fdccc',
     containerGroup: 'Mech refrigerated heated RS',
@@ -5736,7 +5736,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '42V4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -5744,7 +5744,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42V3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -5752,7 +5752,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42V2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -5760,7 +5760,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42V1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -5768,7 +5768,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42V0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -5776,7 +5776,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5784,7 +5784,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5792,7 +5792,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5800,7 +5800,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5808,7 +5808,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5816,7 +5816,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5824,7 +5824,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5832,7 +5832,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5840,7 +5840,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5848,7 +5848,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -5856,7 +5856,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -5864,7 +5864,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -5872,7 +5872,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -5880,7 +5880,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -5888,7 +5888,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -5896,7 +5896,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -5904,7 +5904,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -5912,7 +5912,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -5920,7 +5920,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -5928,7 +5928,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -5936,7 +5936,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42TG': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'gas tank containers (Minimum pressure 2200kPa)',
@@ -5944,7 +5944,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -5952,7 +5952,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -5960,7 +5960,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -5968,7 +5968,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R9': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -5976,7 +5976,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R8': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -5984,7 +5984,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R7': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -5992,7 +5992,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R6': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6000,7 +6000,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R5': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6008,7 +6008,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R4': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6016,7 +6016,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R3': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'mech refrigerated heated RT',
@@ -6024,7 +6024,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R2': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RS',
@@ -6032,7 +6032,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R1': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated heated RS',
@@ -6040,7 +6040,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42R0': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RE',
@@ -6048,7 +6048,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42PW': {
-    containerDetail: 'Container PalletWide',
+    containerType: 'Container PalletWide',
     containerTypeCode: 'container_palletWide',
     containerColor: '#a37522',
     containerGroup: 'Pallet Wide',
@@ -6056,7 +6056,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -6064,7 +6064,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -6072,7 +6072,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -6080,7 +6080,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -6088,7 +6088,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -6096,7 +6096,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -6104,7 +6104,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -6112,7 +6112,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -6120,7 +6120,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -6128,7 +6128,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -6136,7 +6136,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -6144,7 +6144,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -6152,7 +6152,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -6160,7 +6160,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -6168,7 +6168,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -6176,7 +6176,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42GP': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6184,7 +6184,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42GO': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6192,7 +6192,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42G8': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6200,7 +6200,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42G4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6208,7 +6208,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42G3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6216,7 +6216,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42G2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6224,7 +6224,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42G1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6232,7 +6232,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42G0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6240,7 +6240,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -6248,7 +6248,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -6256,7 +6256,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -6264,7 +6264,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -6272,7 +6272,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -6280,7 +6280,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -6288,7 +6288,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '42A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -6296,7 +6296,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '40V4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6304,7 +6304,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40V3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6312,7 +6312,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40V2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6320,7 +6320,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40V1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6328,7 +6328,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40V0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6336,7 +6336,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6344,7 +6344,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6352,7 +6352,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6360,7 +6360,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6368,7 +6368,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6376,7 +6376,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6384,7 +6384,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6392,7 +6392,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6400,7 +6400,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6408,7 +6408,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6416,7 +6416,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -6424,7 +6424,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -6432,7 +6432,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -6440,7 +6440,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -6448,7 +6448,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -6456,7 +6456,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -6464,7 +6464,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -6472,7 +6472,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -6480,7 +6480,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -6488,7 +6488,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -6496,7 +6496,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -6504,7 +6504,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -6512,7 +6512,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -6520,7 +6520,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R9': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6528,7 +6528,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R8': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6536,7 +6536,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R7': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6544,7 +6544,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R6': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6552,7 +6552,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R5': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6560,7 +6560,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R4': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -6568,7 +6568,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R3': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'mech refrigerated heated RT',
@@ -6576,7 +6576,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R2': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RS',
@@ -6584,7 +6584,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R1': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated heated RS',
@@ -6592,7 +6592,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40R0': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RE',
@@ -6600,7 +6600,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -6608,7 +6608,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -6616,7 +6616,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -6624,7 +6624,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -6632,7 +6632,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -6640,7 +6640,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -6648,7 +6648,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -6656,7 +6656,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -6664,7 +6664,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -6672,7 +6672,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -6680,7 +6680,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -6688,7 +6688,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -6696,7 +6696,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -6704,7 +6704,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -6712,7 +6712,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -6720,7 +6720,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40G4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6728,7 +6728,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40G3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6736,7 +6736,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40G2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6744,7 +6744,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40G1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6752,7 +6752,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40G0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -6760,7 +6760,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -6768,7 +6768,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -6776,7 +6776,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -6784,7 +6784,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -6792,7 +6792,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -6800,7 +6800,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -6808,7 +6808,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '40A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -6816,7 +6816,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '2EG1': {
-    containerDetail: '20ft PW High Cube',
+    containerType: '20ft PW High Cube',
     containerTypeCode: 'twenty_pw_high_cube',
     containerColor: '#5a9ce3',
     containerGroup: 'Pallet Wide',
@@ -6824,7 +6824,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '2CT0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -6832,7 +6832,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '28T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -6840,7 +6840,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '28UT': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6848,7 +6848,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '26V4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6856,7 +6856,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26V3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6864,7 +6864,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26V2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6872,7 +6872,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26V1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6880,7 +6880,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26V0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -6888,7 +6888,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6896,7 +6896,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6904,7 +6904,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6912,7 +6912,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6920,7 +6920,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6928,7 +6928,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6936,7 +6936,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6944,7 +6944,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6952,7 +6952,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6960,7 +6960,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -6968,7 +6968,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -6976,7 +6976,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -6984,7 +6984,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -6992,7 +6992,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -7000,7 +7000,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -7008,7 +7008,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -7016,7 +7016,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -7024,7 +7024,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -7032,7 +7032,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -7040,7 +7040,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -7048,7 +7048,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -7056,7 +7056,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -7064,7 +7064,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -7072,7 +7072,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R9': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7080,7 +7080,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R8': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7088,7 +7088,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R7': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7096,7 +7096,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R6': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7104,7 +7104,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R5': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7112,7 +7112,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R4': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7120,7 +7120,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R3': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'mech refrigerated heated RT',
@@ -7128,7 +7128,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R2': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RS',
@@ -7136,7 +7136,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R1': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated heated RS',
@@ -7144,7 +7144,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26R0': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RE',
@@ -7152,7 +7152,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -7160,7 +7160,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -7168,7 +7168,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -7176,7 +7176,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -7184,7 +7184,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -7192,7 +7192,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -7200,7 +7200,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -7208,7 +7208,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -7216,7 +7216,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -7224,7 +7224,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -7232,7 +7232,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -7240,7 +7240,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -7248,7 +7248,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -7256,7 +7256,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -7264,7 +7264,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -7272,7 +7272,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26G4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7280,7 +7280,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26G3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7288,7 +7288,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26G2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7296,7 +7296,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26G1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7304,7 +7304,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26G0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7312,7 +7312,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -7320,7 +7320,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -7328,7 +7328,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -7336,7 +7336,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -7344,7 +7344,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -7352,7 +7352,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -7360,7 +7360,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '26A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -7368,7 +7368,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25V4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7376,7 +7376,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25V3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7384,7 +7384,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25V2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7392,7 +7392,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25V1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7400,7 +7400,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25V0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7408,7 +7408,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7416,7 +7416,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7424,7 +7424,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7432,7 +7432,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7440,7 +7440,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7448,7 +7448,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7456,7 +7456,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7464,7 +7464,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7472,7 +7472,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7480,7 +7480,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7488,7 +7488,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -7496,7 +7496,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -7504,7 +7504,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -7512,7 +7512,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -7520,7 +7520,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -7528,7 +7528,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -7536,7 +7536,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -7544,7 +7544,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -7552,7 +7552,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -7560,7 +7560,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -7568,7 +7568,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -7576,7 +7576,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -7584,7 +7584,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -7592,7 +7592,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R9': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7600,7 +7600,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R8': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7608,7 +7608,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R7': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7616,7 +7616,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R6': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7624,7 +7624,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R5': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7632,7 +7632,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R4': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -7640,7 +7640,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R3': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'mech refrigerated heated RT',
@@ -7648,7 +7648,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R2': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RS',
@@ -7656,7 +7656,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R1': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated heated RS',
@@ -7664,7 +7664,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25R0': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RE',
@@ -7672,7 +7672,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -7680,7 +7680,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -7688,7 +7688,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -7696,7 +7696,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -7704,7 +7704,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -7712,7 +7712,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -7720,7 +7720,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -7728,7 +7728,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -7736,7 +7736,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -7744,7 +7744,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -7752,7 +7752,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -7760,7 +7760,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -7768,7 +7768,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -7776,7 +7776,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -7784,7 +7784,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -7792,7 +7792,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25G4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7800,7 +7800,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25G3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7808,7 +7808,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25G2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7816,7 +7816,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25G1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7824,7 +7824,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25G0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -7832,7 +7832,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -7840,7 +7840,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -7848,7 +7848,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -7856,7 +7856,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -7864,7 +7864,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -7872,7 +7872,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -7880,7 +7880,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '25A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -7888,7 +7888,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24V4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7896,7 +7896,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24V3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7904,7 +7904,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24V2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7912,7 +7912,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24V1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7920,7 +7920,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24V0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -7928,7 +7928,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7936,7 +7936,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7944,7 +7944,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7952,7 +7952,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7960,7 +7960,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7968,7 +7968,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7976,7 +7976,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7984,7 +7984,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -7992,7 +7992,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8000,7 +8000,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8008,7 +8008,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -8016,7 +8016,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -8024,7 +8024,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -8032,7 +8032,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -8040,7 +8040,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -8048,7 +8048,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -8056,7 +8056,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -8064,7 +8064,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -8072,7 +8072,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -8080,7 +8080,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -8088,7 +8088,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -8096,7 +8096,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -8104,7 +8104,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -8112,7 +8112,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R9': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8120,7 +8120,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R8': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8128,7 +8128,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R7': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8136,7 +8136,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R6': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8144,7 +8144,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R5': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8152,7 +8152,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R4': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8160,7 +8160,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R3': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'mech refrigerated heated RT',
@@ -8168,7 +8168,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R2': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RS',
@@ -8176,7 +8176,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R1': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated heated RS',
@@ -8184,7 +8184,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24R0': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RE',
@@ -8192,7 +8192,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -8200,7 +8200,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -8208,7 +8208,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -8216,7 +8216,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -8224,7 +8224,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -8232,7 +8232,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -8240,7 +8240,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -8248,7 +8248,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -8256,7 +8256,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -8264,7 +8264,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -8272,7 +8272,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -8280,7 +8280,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -8288,7 +8288,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -8296,7 +8296,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -8304,7 +8304,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -8312,7 +8312,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24G4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8320,7 +8320,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24G3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8328,7 +8328,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24G2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8336,7 +8336,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24G1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8344,7 +8344,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24G0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8352,7 +8352,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -8360,7 +8360,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -8368,7 +8368,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -8376,7 +8376,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -8384,7 +8384,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -8392,7 +8392,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -8400,7 +8400,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '24A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -8408,7 +8408,7 @@ const containerIsoCode = {
     containerHeight: 9.6,
   },
   '23P3': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform flat',
@@ -8416,7 +8416,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22V4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -8424,7 +8424,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22V3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -8432,7 +8432,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22V2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -8440,7 +8440,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22V1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -8448,7 +8448,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22V0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -8456,7 +8456,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22UT': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8464,7 +8464,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8472,7 +8472,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8480,7 +8480,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8488,7 +8488,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8496,7 +8496,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8504,7 +8504,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8512,7 +8512,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8520,7 +8520,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8528,7 +8528,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8536,7 +8536,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -8544,7 +8544,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22TN': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -8552,7 +8552,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22TG': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -8560,7 +8560,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -8568,7 +8568,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -8576,7 +8576,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -8584,7 +8584,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -8592,7 +8592,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -8600,7 +8600,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -8608,7 +8608,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -8616,7 +8616,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -8624,7 +8624,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -8632,7 +8632,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -8640,7 +8640,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -8648,7 +8648,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -8656,7 +8656,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -8664,7 +8664,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22RC': {
-    containerDetail: 'Reefer No Food',
+    containerType: 'Reefer No Food',
     containerTypeCode: 'reefer_no_food',
     containerColor: '#af0a65',
     containerGroup: 'reefer container',
@@ -8672,7 +8672,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R9': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8680,7 +8680,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R8': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8688,7 +8688,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R7': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8696,7 +8696,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R6': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8704,7 +8704,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R5': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8712,7 +8712,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R4': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -8720,7 +8720,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R3': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'mech refrigerated heated RT',
@@ -8728,7 +8728,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R2': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RS',
@@ -8736,7 +8736,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R1': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated heated RS',
@@ -8744,7 +8744,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22R0': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RE',
@@ -8752,7 +8752,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -8760,7 +8760,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -8768,7 +8768,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -8776,7 +8776,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -8784,7 +8784,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -8792,7 +8792,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -8800,7 +8800,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -8808,7 +8808,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -8816,7 +8816,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -8824,7 +8824,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -8832,7 +8832,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22KL': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -8840,7 +8840,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22K8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'tank container non dangerous liquid',
@@ -8848,7 +8848,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22K2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -8856,7 +8856,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -8864,7 +8864,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -8872,7 +8872,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -8880,7 +8880,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -8888,7 +8888,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -8896,7 +8896,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22GP': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8904,7 +8904,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22G4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8912,7 +8912,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22G3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8920,7 +8920,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22G2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8928,7 +8928,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22G1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8936,7 +8936,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22G0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -8944,7 +8944,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -8952,7 +8952,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -8960,7 +8960,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -8968,7 +8968,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -8976,7 +8976,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -8984,7 +8984,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -8992,7 +8992,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '22A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -9000,7 +9000,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '20V4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -9008,7 +9008,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20V3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -9016,7 +9016,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20V2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -9024,7 +9024,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20V1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -9032,7 +9032,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20V0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'ventilated container',
@@ -9040,7 +9040,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U9': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9048,7 +9048,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U8': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9056,7 +9056,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U7': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9064,7 +9064,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U6': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9072,7 +9072,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U5': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9080,7 +9080,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U4': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9088,7 +9088,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U3': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9096,7 +9096,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U2': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9104,7 +9104,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U1': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9112,7 +9112,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20U0': {
-    containerDetail: 'Open Top',
+    containerType: 'Open Top',
     containerTypeCode: 'open_top',
     containerColor: '#d5de75',
     containerGroup: 'open top',
@@ -9120,7 +9120,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20TN': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -9128,7 +9128,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20TK': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -9136,7 +9136,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20TD': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -9144,7 +9144,7 @@ const containerIsoCode = {
     containerHeight: 8.6,
   },
   '20T9': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure',
@@ -9152,7 +9152,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T8': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -9160,7 +9160,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T7': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 910kPa',
@@ -9168,7 +9168,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T6': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 600kPa',
@@ -9176,7 +9176,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T5': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 400kPa',
@@ -9184,7 +9184,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T4': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -9192,7 +9192,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T3': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -9200,7 +9200,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T2': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 265kPa',
@@ -9208,7 +9208,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T1': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 150kPa',
@@ -9216,7 +9216,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20T0': {
-    containerDetail: 'Tank',
+    containerType: 'Tank',
     containerTypeCode: 'tank',
     containerColor: '#4c81cb',
     containerGroup: 'Minimum pressure 45kPa',
@@ -9224,7 +9224,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20S2': {
-    containerDetail: 'Living fish',
+    containerType: 'Living fish',
     containerTypeCode: 'living_fish',
     containerColor: '#2beac8',
     containerGroup: 'live fish carrier',
@@ -9232,7 +9232,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20S1': {
-    containerDetail: 'Automobile',
+    containerType: 'Automobile',
     containerTypeCode: 'automobile',
     containerColor: '#5bbea8',
     containerGroup: 'automobile carrier',
@@ -9240,7 +9240,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20S0': {
-    containerDetail: 'Livestock',
+    containerType: 'Livestock',
     containerTypeCode: 'livestock',
     containerColor: '#f3bb72',
     containerGroup: 'livestock carrier',
@@ -9248,7 +9248,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R9': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -9256,7 +9256,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R8': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -9264,7 +9264,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R7': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -9272,7 +9272,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R6': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -9280,7 +9280,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R5': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -9288,7 +9288,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R4': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'reefer container',
@@ -9296,7 +9296,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R3': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'mech refrigerated heated RT',
@@ -9304,7 +9304,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R2': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RS',
@@ -9312,7 +9312,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R1': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated heated RS',
@@ -9320,7 +9320,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20R0': {
-    containerDetail: 'Reefer',
+    containerType: 'Reefer',
     containerTypeCode: 'reefer',
     containerColor: '#46eb69',
     containerGroup: 'Mech refrigerated RE',
@@ -9328,7 +9328,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P9': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -9336,7 +9336,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P8': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -9344,7 +9344,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P7': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -9352,7 +9352,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P6': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform/complete superstructure',
@@ -9360,7 +9360,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P5': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'platform, open at the top and ends (skeletal)',
@@ -9368,7 +9368,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P4': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'folding posts/ either free sta',
@@ -9376,7 +9376,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P3': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/cllapsible',
@@ -9384,7 +9384,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P2': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed posts',
@@ -9392,7 +9392,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P1': {
-    containerDetail: 'Flat Rack',
+    containerType: 'Flat Rack',
     containerTypeCode: 'flat_rack',
     containerColor: '#43b4db',
     containerGroup: 'flat/fixed end',
@@ -9400,7 +9400,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20P0': {
-    containerDetail: 'Platform',
+    containerType: 'Platform',
     containerTypeCode: 'platform',
     containerColor: '#2f14ed',
     containerGroup: 'platform',
@@ -9408,7 +9408,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20H6': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -9416,7 +9416,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20H5': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'Insulated',
@@ -9424,7 +9424,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20H2': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -9432,7 +9432,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20H1': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -9440,7 +9440,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20H0': {
-    containerDetail: 'Insulated',
+    containerType: 'Insulated',
     containerTypeCode: 'insulated',
     containerColor: '#ac15ad',
     containerGroup: 'refrigerated or heated',
@@ -9448,7 +9448,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20GP': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -9456,7 +9456,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20G4': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -9464,7 +9464,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20G3': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -9472,7 +9472,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20G2': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -9480,7 +9480,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20G1': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -9488,7 +9488,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20G0': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -9496,7 +9496,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20DV': {
-    containerDetail: 'General',
+    containerType: 'General',
     containerTypeCode: 'general',
     containerColor: '#99caaa',
     containerGroup: 'general purpose dry container ',
@@ -9504,7 +9504,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20B6': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 265kpa',
@@ -9512,7 +9512,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20B5': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - tip 150kap',
@@ -9520,7 +9520,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20B4': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 265kpa',
@@ -9528,7 +9528,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20B3': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - horiz 150kpa',
@@ -9536,7 +9536,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20B1': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Airtight',
@@ -9544,7 +9544,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20B0': {
-    containerDetail: 'Bulk',
+    containerType: 'Bulk',
     containerTypeCode: 'bulk',
     containerColor: '#49b0f6',
     containerGroup: 'bulk - Closed',
@@ -9552,7 +9552,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   '20A0': {
-    containerDetail: 'Air Surface',
+    containerType: 'Air Surface',
     containerTypeCode: 'air_surface',
     containerColor: '#3e4170',
     containerGroup: 'air/Surface Container',
@@ -9560,7 +9560,7 @@ const containerIsoCode = {
     containerHeight: 8,
   },
   xxxx: {
-    containerDetail: 'Unknown',
+    containerType: 'Unknown',
     containerTypeCode: 'unknown',
     containerColor: '#9E9E9E',
     containerGroup: 'unknown',
