@@ -608,7 +608,6 @@ const processNatureOfCargo = line => {
           data: line,
         },
       };
-      console.log('TCL: containerInfo: ', containerInfo);
       setCurrentContainer(containerInfo, data);
     }
   } catch (error) {
