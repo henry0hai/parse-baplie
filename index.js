@@ -1,7 +1,7 @@
 const fs = require('fs');
 const readLine = require('readline');
 const moment = require('moment');
-const { containerIsoCode, equipmentStatus, codeListDangerousGoods } = require('./dictionary');
+const { equipmentStatus, containerIsoCode, harmonizedSystemCodes, codeListDangerousGoods } = require('./dictionary');
 
 const lineReader = readLine.createInterface({
   // input: fs.createReadStream('DEMO_BAPLIE_22.edi'),
@@ -34,6 +34,7 @@ const SMDG_VERSION_22 = 'SMDG22';
 const containerIsoCodeJson = containerIsoCode;
 const equipmentStatusJson = equipmentStatus;
 const codeListDangerousGoodsJson = codeListDangerousGoods;
+const harmonizedSystemCodesJson = harmonizedSystemCodes;
 
 let data = {};
 
@@ -328,7 +329,7 @@ const processLocation = line => {
               container.bay = bay;
               container.row = row;
               container.tier = tier;
-              if (bay % 2 && tier % 2) {
+              if (parseInt(tier, 10) % 2 === 0) {
                 data.containers.push(container);
               } else {
                 data.badContainers.push(container);
@@ -344,7 +345,7 @@ const processLocation = line => {
               container.bay = bay;
               container.row = row;
               container.tier = tier;
-              if (bay % 2 && tier % 2) {
+              if (parseInt(tier, 10) % 2 === 0) {
                 data.containers.push(container);
               } else {
                 data.badContainers.push(container);
@@ -588,45 +589,27 @@ const processGoodItemDetail = line => {
   }
 };
 
+// https://shippingandfreightresource.com/what-is-a-hs-code/
+// https://www.foreign-trade.com/reference/hscode.htm
 const processNatureOfCargo = line => {
   try {
     if (line.includes(NATURE_OF_CARGO)) {
       const regex = new RegExp(/(GDS)(\W*)(\w*[^'])/);
       const natureOfCargoCode = line.match(regex)[3];
-      switch (natureOfCargoCode) {
-        case '01': // Live animal
-          break;
-        case '06': // Live plant
-          break;
-        case '09': // Coffee
-          break;
-        case '10': // Wheat
-          break;
-        case '12': // Hay
-          break;
-        case '22': // Malt
-          break;
-        case '24': // Tobacco
-          break;
-        case '41': // Hide
-          break;
-        case '44': // Timber pack
-          break;
-        case '48': // Waste paper
-          break;
-        case '49': // News print
-          break;
-        case '52': // Cotton
-          break;
-        case '68': // Stone
-          break;
-        case '72': // Iron scrap
-          break;
-        default:
-          hasFurtherDetails = true;
-          // console.log('processNatureOfCargo Need to consider: ', line);
-          break;
+      let natureOfCargoType = '';
+      natureOfCargoType = prop(harmonizedSystemCodesJson, natureOfCargoCode);
+      if (!natureOfCargoType) {
+        natureOfCargoType = 'Unknown';
       }
+      hasFurtherDetails = true;
+      const containerInfo = {
+        natureOfCargo: {
+          natureOfCargoType,
+          data: line,
+        },
+      };
+      console.log('TCL: containerInfo: ', containerInfo);
+      setCurrentContainer(containerInfo, data);
     }
   } catch (error) {
     parseEdiStatus.status = false;
