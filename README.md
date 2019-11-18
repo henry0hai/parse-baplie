@@ -13,6 +13,12 @@ yarn serve
 
 - The output will shown in console, and in the `ediPared.json` that will created in source code.
 
+## Run with file path using node
+
+```sh
+node index.js /home/henry/Downloads/Sample.edi
+```
+
 ## Note
 
 - Version 3.1.1 is current not supported
