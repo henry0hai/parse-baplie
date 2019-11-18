@@ -1,11 +1,24 @@
 const fs = require('fs');
 const readLine = require('readline');
 const moment = require('moment');
-const { equipmentStatus, containerIsoCode, harmonizedSystemCodes, codeListDangerousGoods } = require('./dictionary');
+const {
+  equipmentStatus,
+  containerIsoCode,
+  harmonizedSystemCodes,
+  codeListDangerousGoods
+} = require('./dictionary');
+
+const patchFile = process.argv[2];
+
+let filePath = 'demo_v22.edi';
+
+if (patchFile) {
+  filePath = patchFile;
+}
 
 const lineReader = readLine.createInterface({
   // input: fs.createReadStream('DEMO_BAPLIE_22.edi'),
-  input: fs.createReadStream('demo_v22.edi'),
+  input: fs.createReadStream(filePath)
   // input: fs.createReadStream('demo_v15.edi'),
 });
 
@@ -40,7 +53,7 @@ let data = {};
 
 let parseEdiStatus = {
   status: true,
-  message: '',
+  message: ''
 };
 
 // Group 1 -> Group 2 (Group 3 -> Group 4)
@@ -62,6 +75,8 @@ let equipmentAttached = [];
 let associationAssignedCode = '';
 
 let shouldAddBreakLine = false;
+
+const hrstart = process.hrtime();
 
 lineReader.on('line', line => {
   const checkLines = line.split("'");
@@ -94,12 +109,18 @@ lineReader.on('close', () => {
     data.totalBadContainers = 0;
   }
   data.totalContainers = data.totalGoodContainers + data.totalBadContainers;
-  console.log('parse completed with total containers: ', JSON.stringify(data.totalContainers));
+  console.log(
+    'parse completed with total containers: ',
+    JSON.stringify(data.totalContainers)
+  );
   console.log('parseEdiStatus: ', JSON.stringify(parseEdiStatus));
   fs.writeFile('ediParsed.json', JSON.stringify(data), err => {
     // In case of a error throw err.
     if (err) throw err;
   });
+
+  const hrend = process.hrtime(hrstart);
+  console.info('Execution time (hr): %ds %dms', hrend[0], hrend[1] / 1000000);
 });
 
 const processDataLine = line => {
@@ -131,17 +152,20 @@ const processInterchangeHeader = line => {
       const day = dateOfPreparation.substring(4, 6);
       const hour = timeOfPreparation.substring(0, 2);
       const minute = timeOfPreparation.substring(2, 4);
-      const preparationAt = moment(`20${year}-${month}-${day} ${hour}:${minute}`).format('YYYYMMDDHHMMSS');
+      const preparationAt = moment(
+        `20${year}-${month}-${day} ${hour}:${minute}`
+      ).format('YYYYMMDDHHMMSS');
       data.interchangeHeader = {
         version: ediVersion,
         senderId,
         recipientId,
         preparationAt,
-        data: line,
+        data: line
       };
     } catch (error) {
       parseEdiStatus.status = false;
-      parseEdiStatus.message = 'Can not convert InterchangeHeader. Line: ' + line;
+      parseEdiStatus.message =
+        'Can not convert InterchangeHeader. Line: ' + line;
     }
   }
 };
@@ -160,7 +184,7 @@ const processMessageHeader = line => {
       }
       data.messageHeader = {
         associationAssignedCode: associationAssignedCode,
-        data: line,
+        data: line
       };
     } catch (error) {
       parseEdiStatus.status = false;
@@ -172,7 +196,7 @@ const processMessageHeader = line => {
 const processBeginningOfMessage = line => {
   if (line.includes(BEGINNING_OF_MESSAGE)) {
     data.beginningOfMessage = {
-      data: line,
+      data: line
     };
   }
 };
@@ -212,7 +236,7 @@ const processDateTimePeriod = line => {
             code,
             arrivalTime: dateTime,
             dateTimeFormat,
-            data: line,
+            data: line
           };
           group1 = false;
           break;
@@ -221,7 +245,7 @@ const processDateTimePeriod = line => {
             code,
             estimatedArrivalTime: dateTime,
             dateTimeFormat,
-            data: line,
+            data: line
           };
           group1 = false;
           break;
@@ -230,7 +254,7 @@ const processDateTimePeriod = line => {
             code,
             estimatedDepartureTime: dateTime,
             dateTimeFormat,
-            data: line,
+            data: line
           };
           group1 = false;
           break;
@@ -239,7 +263,7 @@ const processDateTimePeriod = line => {
             code,
             departureTime: dateTime,
             dateTimeFormat,
-            data: line,
+            data: line
           };
           break;
         case '137':
@@ -247,7 +271,7 @@ const processDateTimePeriod = line => {
             code,
             dateTime,
             dateTimeFormat,
-            data: line,
+            data: line
           };
           break;
         default:
@@ -336,7 +360,9 @@ const processLocation = line => {
               }
               break;
             case '87': // (Ro/Ro-format, assigned by the Carrier)
-              const deckBayRowTierRegex = new RegExp(/(\d{2})(\d{3})(\d{2})(\d{2})/);
+              const deckBayRowTierRegex = new RegExp(
+                /(\d{2})(\d{3})(\d{2})(\d{2})/
+              );
               deck = containerLocation.match(deckBayRowTierRegex)[1];
               bay = containerLocation.match(deckBayRowTierRegex)[2];
               row = containerLocation.match(deckBayRowTierRegex)[3];
@@ -378,7 +404,7 @@ const processLocation = line => {
           placeOfDeparture,
           codeListQualifier,
           codeListResponsibleAgency,
-          data: line,
+          data: line
         };
       }
 
@@ -388,12 +414,15 @@ const processLocation = line => {
           nextPortOfCall,
           codeListQualifier,
           codeListResponsibleAgency,
-          data: line,
+          data: line
         };
       }
     }
   } catch (error) {
-    console.log('TCL: ConvertEdiToJson -> privateprocessLocation -> error', error);
+    console.log(
+      'TCL: ConvertEdiToJson -> privateprocessLocation -> error',
+      error
+    );
     parseEdiStatus.status = false;
     parseEdiStatus.message = 'Can not convert Location. Line: ' + line;
   }
@@ -417,7 +446,9 @@ const processDetailsOfTransport = line => {
       let vesselIdOrName = '';
 
       if (associationAssignedCode === SMDG_VERSION_22) {
-        regex = new RegExp(/(TDT)(\W)(\d*)(\W)(\w*)(\W*)([\w\s]*):(\d*):(\d*)(\W*)(\w*):(\d*):(\w*):((\w|\W[^'])*)/);
+        regex = new RegExp(
+          /(TDT)(\W)(\d*)(\W)(\w*)(\W*)([\w\s]*):(\d*):(\d*)(\W*)(\w*):(\d*):(\w*):((\w|\W[^'])*)/
+        );
 
         // Code "20" (Main Carriage)
         transportStateQualifier = line.match(regex)[3];
@@ -457,7 +488,9 @@ const processDetailsOfTransport = line => {
       }
 
       if (associationAssignedCode === SMDG_VERSION_15) {
-        regex = new RegExp(/(TDT)(\W)(\d*)(\W)(\w*)(\W*)(\w*):(\d*):?:?([\w\s-_]*)?:?(\w*)(\W*)(\w*):(\d*):(\d*)/);
+        regex = new RegExp(
+          /(TDT)(\W)(\d*)(\W)(\w*)(\W*)(\w*):(\d*):?:?([\w\s-_]*)?:?(\w*)(\W*)(\w*):(\d*):(\d*)/
+        );
 
         // Code "20" (Main Carriage)
         transportStateQualifier = line.match(regex)[3];
@@ -521,14 +554,15 @@ const processDetailsOfTransport = line => {
         mutuallyAgreedVesselCode,
         codeListResponsibleAgency2,
         vesselIdOrName,
-        data: line,
+        data: line
       };
       data.containers = [];
       data.badContainers = [];
     } catch (error) {
       parseEdiStatus.status = false;
       console.log('data', data);
-      parseEdiStatus.message = 'Can not convert DetailsOfTransport. Line: ' + line;
+      parseEdiStatus.message =
+        'Can not convert DetailsOfTransport. Line: ' + line;
     }
   }
 
@@ -578,8 +612,8 @@ const processGoodItemDetail = line => {
         goodsItemDetails: {
           numberOfPackages,
           typeOfPackagesIdentification,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
     } catch (error) {
@@ -605,8 +639,8 @@ const processNatureOfCargo = line => {
       const containerInfo = {
         natureOfCargo: {
           natureOfCargoType,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
     }
@@ -634,7 +668,9 @@ const processFreeText = line => {
         case 'AAI': // General information
           break;
         case 'AAY': // Certification statements
-          const anotherRegex = new RegExp(/(FTX)(\W*)(\w*)(\W*)(\w*)(\W*)(\w*)/);
+          const anotherRegex = new RegExp(
+            /(FTX)(\W*)(\w*)(\W*)(\w*)(\W*)(\w*)/
+          );
           freeText = line.match(anotherRegex)[7];
           // console.log('Need to consider: ', line);
           break;
@@ -647,8 +683,8 @@ const processFreeText = line => {
       const containerInfo = {
         freeText: {
           freeText,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
       hasFurtherDetails = false;
@@ -682,8 +718,8 @@ const processMeasurement = line => {
           isGrossWeightOrMassVerified,
           measureUnitQualifier,
           measureUnitValue,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
     }
@@ -722,8 +758,8 @@ const processDimensions = line => {
               length,
               width,
               height,
-              data: line,
-            },
+              data: line
+            }
           };
           break;
         case '5': // Code "5" = Off-standard dims. (over-length front)
@@ -734,8 +770,8 @@ const processDimensions = line => {
               length,
               width,
               height,
-              data: line,
-            },
+              data: line
+            }
           };
           break;
         case '6': // Code "6" = Off-standard dims. (over-length back)
@@ -746,8 +782,8 @@ const processDimensions = line => {
               length,
               width,
               height,
-              data: line,
-            },
+              data: line
+            }
           };
           break;
         case '7': // Code "7" = Off-standard dims. (over-width right)
@@ -758,8 +794,8 @@ const processDimensions = line => {
               length,
               width,
               height,
-              data: line,
-            },
+              data: line
+            }
           };
           break;
         case '8': // Code "8" = Off-standard dims. (over-width left)
@@ -770,8 +806,8 @@ const processDimensions = line => {
               length,
               width,
               height,
-              data: line,
-            },
+              data: line
+            }
           };
           break;
         case '9': // Code "9" = Off-standard dims. (over-height)
@@ -782,8 +818,8 @@ const processDimensions = line => {
               length,
               width,
               height,
-              data: line,
-            },
+              data: line
+            }
           };
           break;
         case '10': // Code "10" = external equipment dimensions (Non-ISO equipment)
@@ -794,8 +830,8 @@ const processDimensions = line => {
               length,
               width,
               height,
-              data: line,
-            },
+              data: line
+            }
           };
           break;
         default:
@@ -813,7 +849,9 @@ const processDimensions = line => {
 const processTemperature = line => {
   try {
     if (line.includes(TEMPERATURE)) {
-      const regex = new RegExp(/(TMP)(\W*)(\d*)(\W)([-]?[0-9]*[.]?[0-9]*):(\w*)/);
+      const regex = new RegExp(
+        /(TMP)(\W*)(\d*)(\W)([-]?[0-9]*[.]?[0-9]*):(\w*)/
+      );
       const temperatureQualifier = line.match(regex)[3];
       const temperatureValue = line.match(regex)[5];
       // * Measure Unit Qualifier: Allowed qualifiers:
@@ -825,8 +863,8 @@ const processTemperature = line => {
           temperatureQualifier,
           temperatureValue,
           measureUnitQualifier,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
     }
@@ -839,7 +877,9 @@ const processTemperature = line => {
 const processRangeDetail = line => {
   try {
     if (line.includes(RANGE_DETAILS)) {
-      const regex = new RegExp(/(RNG)(\W*)(\d*)(\W*)(\w*):([-]?[0-9]*[.]?[0-9]*):([-]?[0-9]*[.]?[0-9]*)/);
+      const regex = new RegExp(
+        /(RNG)(\W*)(\d*)(\W*)(\w*):([-]?[0-9]*[.]?[0-9]*):([-]?[0-9]*[.]?[0-9]*)/
+      );
       const rangeTypeQualifier = line.match(regex)[3];
       // * Measure Unit Qualifier: Allowed qualifiers:
       // "CEL" = degrees Celsius = Preferred.
@@ -853,8 +893,8 @@ const processRangeDetail = line => {
           measureUnitQualifier,
           minRange,
           maxRange,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
     }
@@ -867,7 +907,9 @@ const processRangeDetail = line => {
 const processLocationForContainer = line => {
   try {
     if (line.includes(PLACE_LOCATION_IDENTIFICATION)) {
-      const regex = new RegExp(/(LOC)(\W)(\d*)(\W)(\w*):?(\d*)?:?(\d*)?(\W)?(\w*)?:?(\w*)?:?(\w*)?/);
+      const regex = new RegExp(
+        /(LOC)(\W)(\d*)(\W)(\w*):?(\d*)?:?(\d*)?(\W)?(\w*)?:?(\w*)?:?(\w*)?/
+      );
 
       const placeLocationQualifier = line.match(regex)[3];
       const placeLocationIdentification = line.match(regex)[5];
@@ -900,7 +942,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '11': // Place/Port of discharge
@@ -911,7 +953,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '13': // Transshipment port/Place of transshipment
@@ -922,7 +964,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '64': // 1st optional port of discharge
@@ -933,7 +975,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '68': // 2nd optional port of discharge
@@ -944,7 +986,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '70': // 3rd optional port of discharge
@@ -955,7 +997,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '76': // Original port of loading
@@ -966,7 +1008,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '83': // Place of delivery (to be used as final destination or double stack train destination).
@@ -977,7 +1019,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '97': // Optional place/port of discharge. To be used if actual port of discharge is undefined, i.e. "XXOPT".
@@ -988,7 +1030,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         case '152': // Next port of discharge
@@ -999,7 +1041,7 @@ const processLocationForContainer = line => {
             relatedPlaceLocationIdentification,
             codeListQualifier2,
             codeListResponsibleAgency2,
-            data: line,
+            data: line
           };
           break;
         default:
@@ -1010,7 +1052,8 @@ const processLocationForContainer = line => {
     }
   } catch (error) {
     parseEdiStatus.status = false;
-    parseEdiStatus.message = 'Can not convert LocationForContainer. Line: ' + line;
+    parseEdiStatus.message =
+      'Can not convert LocationForContainer. Line: ' + line;
   }
 };
 
@@ -1031,13 +1074,16 @@ const processReference = line => {
         reference: {
           referenceQualifier,
           referenceNumber,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
     }
   } catch (error) {
-    console.log('TCL: ConvertEdiToJson -> privateprocessReference -> error: ', error);
+    console.log(
+      'TCL: ConvertEdiToJson -> privateprocessReference -> error: ',
+      error
+    );
     parseEdiStatus.status = false;
     parseEdiStatus.message = 'Can not convert Reference. Line: ' + line;
   }
@@ -1047,7 +1093,9 @@ const processEquipmentDetails = line => {
   try {
     if (line.includes(EQUIPMENT_DETAILS)) {
       group3 = true;
-      const regex = new RegExp(/(EQD)(\W)(\w*)(\W)([\w\s]*)?(\W)?(\w*)?(\W)?(\W)?(\d*)?(\W)?(\d*)?/);
+      const regex = new RegExp(
+        /(EQD)(\W)(\w*)(\W)([\w\s]*)?(\W)?(\w*)?(\W)?(\W)?(\d*)?(\W)?(\d*)?/
+      );
 
       // * Equipment Qualifier: Allowed qualifiers:
       // "CN" = Container
@@ -1098,12 +1146,18 @@ const processEquipmentDetails = line => {
         //   containerDetail = 'rest unknown';
         //   break;
         case 9999: // "9999" = No information at all.
-          containerDetail = prop(containerIsoCodeJson, equipmentSizeAndTypeIdentification);
+          containerDetail = prop(
+            containerIsoCodeJson,
+            equipmentSizeAndTypeIdentification
+          );
           noInformation = true;
           break;
         default:
           // Other codes to be agreed between partners.
-          containerDetail = prop(containerIsoCodeJson, equipmentSizeAndTypeIdentification);
+          containerDetail = prop(
+            containerIsoCodeJson,
+            equipmentSizeAndTypeIdentification
+          );
           if (!containerDetail) {
             console.log('Container ISO type unknown: ', line);
             containerDetail = {
@@ -1112,7 +1166,7 @@ const processEquipmentDetails = line => {
               containerColor: '#9E9E9E',
               containerGroup: equipmentSizeAndTypeIdentification,
               containerLength: 0,
-              containerHeight: 0,
+              containerHeight: 0
             };
           }
           break;
@@ -1138,8 +1192,8 @@ const processEquipmentDetails = line => {
           noInformation,
           equipmentStatus,
           isFull,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
     }
@@ -1163,10 +1217,10 @@ const processEquipmentAttached = line => {
       equipmentAttached.push({
         equipmentQualifier,
         equipmentIdentificationNumber,
-        data: line,
+        data: line
       });
       const containerInfo = {
-        equipmentAttached: equipmentAttached,
+        equipmentAttached: equipmentAttached
       };
       setCurrentContainer(containerInfo, data);
     }
@@ -1194,8 +1248,8 @@ const processNameAndAddress = line => {
           carrier: partyId,
           costListQualifier,
           costListResponsibleAgency,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
       // end of group 3
@@ -1212,7 +1266,7 @@ const processDangerousGoods = line => {
   try {
     if (line.includes(DANGEROUS_GOODS)) {
       const regex = new RegExp(
-        /(DGS)(\W)(\w*)(\W)([\d.]*)?:?([\d:]*)?(\W)(\d*)(\W)?([\d-.]*)?:?(\w*)?(\W)?(\d*)?(\W)?([\d.-]*)?(\W)?(\w*)?(\W*)?([\d.]*)?:?([\d.]*)?(\W)?([\w\s]*)?:?([\w\s]*)?:?([\w\s]*)?/,
+        /(DGS)(\W)(\w*)(\W)([\d.]*)?:?([\d:]*)?(\W)(\d*)(\W)?([\d-.]*)?:?(\w*)?(\W)?(\d*)?(\W)?([\d.-]*)?(\W)?(\w*)?(\W*)?([\d.]*)?:?([\d.]*)?(\W)?([\w\s]*)?:?([\w\s]*)?:?([\w\s]*)?/
       );
       const dangerousGoodsRegulationsCode = line.match(regex)[3];
       const hazardCodeIdentification = line.match(regex)[5];
@@ -1246,14 +1300,20 @@ const processDangerousGoods = line => {
 
       let riskTypeUpperPart = undefined;
       if (hazardCodeIdentificationUpperPart) {
-        riskTypeUpperPart = prop(codeListDangerousGoodsJson, hazardCodeIdentificationUpperPart);
+        riskTypeUpperPart = prop(
+          codeListDangerousGoodsJson,
+          hazardCodeIdentificationUpperPart
+        );
       }
 
       const substanceIdentificationNumberLowerPart = line.match(regex)[20];
 
       let riskSubStanceTypeLowerPart = undefined;
       if (substanceIdentificationNumberLowerPart) {
-        riskSubStanceTypeLowerPart = prop(codeListDangerousGoodsJson, substanceIdentificationNumberLowerPart);
+        riskSubStanceTypeLowerPart = prop(
+          codeListDangerousGoodsJson,
+          substanceIdentificationNumberLowerPart
+        );
       }
 
       const dangerousGoodsLabelMarking1 = line.match(regex)[22];
@@ -1279,8 +1339,8 @@ const processDangerousGoods = line => {
           dangerousGoodsLabelMarking1,
           dangerousGoodsLabelMarking2,
           dangerousGoodsLabelMarking3,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
     }
@@ -1293,17 +1353,21 @@ const processDangerousGoods = line => {
 const processFreeTextGroup4 = line => {
   try {
     if (line.includes(FREE_TEXT)) {
-      const regex = new RegExp(/(FTX)(\W)(\w*)(\W*)?([\w\s]*)?:?([\w\s]*)?:?([\w\s]*)?/);
+      const regex = new RegExp(
+        /(FTX)(\W)(\w*)(\W*)?([\w\s]*)?:?([\w\s]*)?:?([\w\s]*)?/
+      );
 
       const textSubjectQualifier = line.match(regex)[3];
       let textSubjectQualifierDescription = '';
       const freeText = line.match(regex)[5];
       switch (textSubjectQualifier) {
         case 'AAC': // Dangerous goods additional information
-          textSubjectQualifierDescription = 'Dangerous goods additional information';
+          textSubjectQualifierDescription =
+            'Dangerous goods additional information';
           break;
         case 'AAD': // Dangerous goods, technical name, proper shipping name
-          textSubjectQualifierDescription = 'Dangerous goods, technical name, proper shipping name';
+          textSubjectQualifierDescription =
+            'Dangerous goods, technical name, proper shipping name';
           break;
         default:
           // console.log('processFreeText Need to consider: ', line);
@@ -1318,8 +1382,8 @@ const processFreeTextGroup4 = line => {
           textSubjectQualifierDescription,
           freeTextNetWeightInKilos,
           freeTextDgReferenceNumber,
-          data: line,
-        },
+          data: line
+        }
       };
       setCurrentContainer(containerInfo, data);
       // group4 = false;
