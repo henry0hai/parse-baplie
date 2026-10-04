@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/henry0hai/parse-baplie#readme",
   "dependencies": {
-    "moment": "^2.29.4"
+    "moment": "^2.31.0"
   }
 }
